@@ -17,7 +17,7 @@ duplicates = []
 #             duplicates.append(name_1)
 
 
-# Using Dictionary
+# Using Dictionary Reducing the time complexity from O(n*2) to o(n)
 first_dict = {}
 for name1 in names_1:
     first_dict[name1] = name1
